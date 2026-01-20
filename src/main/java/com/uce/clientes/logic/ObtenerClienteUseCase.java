@@ -8,7 +8,6 @@ import com.uce.clientes.controllers.data.ClienteUI;
 import com.uce.clientes.data.repositories.UserRepository;
 import com.uce.clientes.logic.validators.Result;
 
-import java.util.Optional;
 
 @Service
 public class ObtenerClienteUseCase {

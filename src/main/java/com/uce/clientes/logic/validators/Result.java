@@ -2,8 +2,10 @@ package com.uce.clientes.logic.validators;
 
 import java.util.function.Function;
 
+
 // Sealed interface para control estricto de tipos de retorno
-public sealed interface Result<T> {
+
+public sealed interface Result<T>  {
 
     record Success<T>(T value) implements Result<T> {}
     record Failure<T>(Throwable exception) implements Result<T> {}
